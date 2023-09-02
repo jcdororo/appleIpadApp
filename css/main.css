@@ -203,9 +203,11 @@ a.link:hover {
   box-sizing: border-box;
   background-color: var(--color-white);
 }
+
 .whitebox.whitebox--transparent {
   background-color: transparent;
 }
+
 .whitebox .icon {
   margin-bottom: 20px;
 }
@@ -1112,8 +1114,40 @@ nav .menu li.active:hover a {
   transform: translate(470px, -620px);
 }
 
+/* AR */
+.ar {
+  background-color: var(--color-section);
+  padding: 20px 20px 0;
+}
+
+.ar .whitebox {
+  padding-bottom: 0px;
+}
+
+.ar .inner {
+  display: flex;
+}
+.ar .inner > div {
+  max-width: 410px;
+  margin-top: 60px;
+  margin-right: 90px;
+}
 
 
+/* Enviroment */
+.enviroment {
+  padding: 20px 20px 0;
+  background-color: var(--color-section);
+  text-align: center;
+}
+.enviroment .icon {
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.enviroment h1 {
+  color: #03A10E;
+}
 
 @keyframes sprite-icon {
   /* 1~10 */
